@@ -3,7 +3,7 @@
 .sidebar{width: 270px}
 
 For heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;.
-body{color: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; width: 960px}
+body{color: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; width: 960px; background-image: url(assets\images\intersection.png);}
 
 h1{color:#4aaaa5; background: #4aaaa5; } 
 p{color: #777777; }
