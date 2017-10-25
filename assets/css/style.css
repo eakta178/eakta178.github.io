@@ -1,0 +1,14 @@
+
+
+.sidebar{width: 270px}
+
+For heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;.
+body{color: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; width: 960px}
+
+h1{color:#4aaaa5; background: #4aaaa5; } 
+p{color: #777777; }
+header{background color: #ffffff; border-color:#cccccc } 
+footer{background: #666666}
+.maincontent{background-color: #ffffff;border color: #dddddd; width: 650px }
+
+
