@@ -18,7 +18,7 @@
     float: left;
     text-decoration: none;}
 #navbar{ position: absolute;
-    right: 22%;
+    right: 17%;
     bottom: 17%;
     font-size: 1.0rem;
     color: #777777;
@@ -65,16 +65,17 @@ h2{color:#4aaaa5;  font-size: 1.2rem; font-weight: bold; padding: 10px; border-b
 body{background-image: url("../images/intersection.png");}
 
 
-/*.sidebar{width: 270px}
-
-For heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;.
-body{color: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; width: 960px; }
-
-h1{color:#4aaaa5; background: #4aaaa5; font-size: 2.0rem; font-weight: bold; } 
-p{color: #777777; }
-header{background color: #ffffff; border-color:#cccccc } */
 
 footer{background: #666666; padding: 30px; font-size: 15px; color: white; text-align: center; width: 100%; border-top: 10px solid #4aaaa5;}
 
 
-
+/*For Contact html*/
+.txtbox{padding: 5px 5px 5px 0px; width: 650px;}
+#message{width: 650px; height: 300px;}
+#submit{background: #4aaaa5;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    /* padding: 5px; */
+    text-align: center;
+    width: 83px;
+    margin-top: 20px;}
