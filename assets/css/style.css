@@ -69,7 +69,7 @@ body{background-image: url("../images/intersection.png");}
 footer{background: #666666; padding: 30px; font-size: 15px; color: white; text-align: center; width: 100%; border-top: 10px solid #4aaaa5;}
 
 
-/*For Contact html*/
+/*specific css for only Contact html*/
 .txtbox{padding: 5px 5px 5px 0px; width: 650px;}
 #message{width: 650px; height: 300px;}
 #submit{background: #4aaaa5;
@@ -79,3 +79,14 @@ footer{background: #666666; padding: 30px; font-size: 15px; color: white; text-a
     text-align: center;
     width: 83px;
     margin-top: 20px;}
+
+
+/*specific css for portfolio html*/
+/*.paint{
+	float: left;
+	width:20%;
+	margin: 1.66%;
+	padding:10px;
+	}*/
+
+ 
