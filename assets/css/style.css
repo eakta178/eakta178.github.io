@@ -81,6 +81,15 @@ footer{background: #666666; padding: 30px; font-size: 15px; color: white; text-a
     margin-top: 20px;}
 
 
+#sidebar1{    position: absolute;
+    right: -12%;
+    top: -6%;
+    width: 270px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    margin: 38px;}
+
+
 /*specific css for portfolio html*/
 /*.paint{
 	float: left;
@@ -88,5 +97,13 @@ footer{background: #666666; padding: 30px; font-size: 15px; color: white; text-a
 	margin: 1.66%;
 	padding:10px;
 	}*/
+
+#sidebar2{    position: absolute;
+    right: -12%;
+    top: -22%;
+    width: 270px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    margin: 38px;}    
 
  
