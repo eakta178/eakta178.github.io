@@ -66,7 +66,10 @@ body{background-image: url("../images/intersection.png");}
 
 
 
-footer{background: #666666; padding: 30px; font-size: 15px; color: white; text-align: center; width: 100%; border-top: 10px solid #4aaaa5;}
+footer{background: #666666; padding: 30px; 
+    font-size: 15px; color: white; text-align: center; 
+    width: 100%; border-top: 10px solid #4aaaa5;
+ }
 
 
 /*specific css for only Contact html*/
@@ -75,7 +78,7 @@ footer{background: #666666; padding: 30px; font-size: 15px; color: white; text-a
 #submit{background: #4aaaa5;
     color: white;
     padding: 5px 5px 5px 5px;
-    /* padding: 5px; */
+  
     text-align: center;
     width: 83px;
     margin-top: 20px;}
@@ -106,4 +109,10 @@ footer{background: #666666; padding: 30px; font-size: 15px; color: white; text-a
     border: 1px solid #dddddd;
     margin: 38px;}    
 
- 
+#footerfixed{background: #666666; padding: 30px; 
+    font-size: 15px; color: white; text-align: center; 
+    width: 100%; border-top: 10px solid #4aaaa5;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+ }
