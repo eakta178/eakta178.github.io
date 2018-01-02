@@ -1,101 +1,80 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Train Schedule</title>
-	<meta charset="utf-8">
-	
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">
-    <script src="https://www.gstatic.com/firebasejs/4.8.0/firebase.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.3/moment-with-locales.min.js"></script>
-	
+	<title>Profile</title>
+	<link rel="stylesheet" type="text/css" href="assets\css\reset.css">
+	<link rel="stylesheet" type="text/css" href="assets\css\style.css">
+	<meta name="viewport" content="width=device-width, intial-scale=1">
 </head>
 <body>
 
-	<div class="container-fluid">
-		<div class="row">
-                <div class="jumbotron text-center" id="heading">
-                        <h1>Train Realtime Database</h1>
-                        <p>Departure and Arrival</p>
-                        
-                </div>
+		
+	
+	
+		<HEADER id="headcontainer">
+			<div>
+
+			<a href="index.html" class="logo">Eakta Pandey</a>
 			
+			<nav class="navbar">
+				
+				<a href="index.html" class="nav">About</a>
 			
-        </div>
-
-        <div class="panel panel-primary">
-                
-                        
-            <div class="panel-heading" id="pheadnext">
-                <h3 class="panel-title"><strong>Current Train Schedule</strong></h3>
-            </div>
-                      
-                        
-            <table class="table">
-                    <thead>
-                            <tr>
-                              <th>Train Name</th>
-                              <th>Destination</th>
-                              <th>Frequency(min)</th>
-                              <th>Next Arrival</th>
-                              <th>Arriving in minutes)</th>
-                              
-                            </tr>
-                          </thead>
-                          <tbody id="addData">
-                            
-                            
-                          </tbody>
-                          
-            </table>
-                      
-
-        </div>
-        <div class="panel panel-primary">
-            <div class="panel-heading" id="phead">
-              <h3 class="panel-title"><strong>Add Train</strong></h3>
-            </div>
-            <div class="panel-body">
-
-              <!-- Entry Form -->
-              <form>
-                <div class="form-group">
-                  <label for="train-name-input">Train Name</label>
-                  <input class="form-control" id="train-name-input" type="text" placeholder="Add train name">
-                </div>
-                <div class="form-group">
-                  <label for="destination-input">Destination</label>
-                  <input class="form-control" id="destination-input" type="text" placeholder="Add Destination City">
-                </div>
-                <div class="form-group">
-                  <label for="start-input">First Train Time (HH:mm military time)</label>
-                  <input class="form-control" id="start-input" type="text" placeholder="Add past time only">
-                </div>
-                <div class="form-group">
-                  <label for="frequency-input">Frequency</label>
-                  <input class="form-control" id="frequency-input" type="text" placeholder="Enter frequency in minutes only">
-                </div>
-                <button class="btn btn-primary" id="addrow" type="submit">Submit</button>
-              </form>
-
-            </div>
-
-          </div>
-
-
-
-     
-            
-         
+				|
 			
-		</div>
+				<a href="portfolio.html" class="nav">Portfolio</a>
+		
+				|
+			
+				<a href="contact.html" class="nav">Contact</a>
+				
+			 </nav>
+
+			 </div>
+
+		</HEADER>
+	
+			
+		
+			<div class="container">
+				
+				<div class="maincontent">
+					<h1>About Me</h1>
+					<div class="subcontent">
+
+						<img src="assets\images\Portfolio_image.jpg" class="ppic">
+						<p>I'm passionate about Building a world-class Quality Engineering group and evolving continuously.</p>
+						<br>
+						<p>Leading an organization tasked with establishing a center of excellence around software quality and continuous delivery using DevOps principles in an Agile delivery model.</p>
+						<br>
+						<p>I have led and contributed to build the front-end automation framework with Selenium WebDriver and TestNG. Also ensuring the capability to tackle responsive experience tests on mobile devices and tablets using Appium tool.</p>
+						<br>
+						<p>I have driven the testing effort of adaptive design of the legacy sales platform which drove the sales on mobile and tablet devices up by 10% and eliminated the maintenance overhead of separate m site.</p>
+					</div>
+				</div>
+			
+
+
+				<div class="sidebar">
+					<div class="sidecontent">
+					<h2>Connect with me</h2>
+					
+					<a href="https://github.com/eakta178" target="_blank"><img src="assets/images/github-logo-icon-30.png" class="sociallogo"></a>
+					<a href="https://www.linkedin.com/in/eakta-pandey-57693828/" target="_blank"><img src="assets/images/linkedin-logo.jpg" class="sociallogo"></a>
+					<a href="https://stackoverflow.com/users/8778536/ep17" target="_blank"><img src="assets/images/stack-logo.png" class="sociallogo"></a>
+					
+					</div>
+				</div>
+
+			</div>	
 	
 
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript" src="train.js"></script>
+
+
+	<footer>© copyright 2017 Eakta Pandey</footer>
+
+
 </body>
 </html>
